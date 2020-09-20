@@ -164,3 +164,30 @@ footer p{
 	font-size: 30px;
 	color: #12B9CD;
 }
+
+.producto-nombre {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: #D00000;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.producto:hover .producto-nombre {
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+.producto a{
+	color: #fff;
+}
+
+.producto a:hover{
+	text-decoration: none;
+}
